@@ -19,6 +19,14 @@ struct Quote: Identifiable, Codable {
     let quoteLink: String
         
 }
+
+let exampleQuote = Quote(
+    quoteText: "",
+    quoteAuthor: "",
+    senderName: "",
+    senderLink: "",
+    quoteLink: ""
+)
  
 
 
