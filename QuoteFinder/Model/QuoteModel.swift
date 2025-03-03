@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct Quote: Identifiable, Codable {
-    var id = UUID()
+struct Quote: Codable {
+
     
     
     // MARK: Stored properties
